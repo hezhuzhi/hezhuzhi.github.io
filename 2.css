@@ -1,0 +1,44 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url(tupian/1734361987114_副本.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.wrapper{
+position: relative;
+width: 400px;
+height: 450px;
+background: rgba(255,255,255,.35);
+box-shadow: 0 8px 32px rgba(31, 38, 135, .37);/*透明度和阴影*/
+border: 1px solid rgba(255,255,255,.18);
+border-radius: 20px;/*圆角*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 180px;
+font-size: 2em;
+color: rgb(113, 230, 23);
+text-align: center;
+
+}
+
+.input-box{
+width: 320px;
+margin: 30px 0;
+
+text-align: center;
+}

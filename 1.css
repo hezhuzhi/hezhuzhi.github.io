@@ -1,0 +1,50 @@
+*{
+padding: 0%;/*内边距*/
+margin: 0%;/*外边距*/
+}
+
+
+header img{
+
+width: 40px;
+}
+
+header li{
+display: inline;/*行内元素 横向排列*/
+}
+
+
+
+header ul{
+
+position: absolute;/*绝对模式*/
+right: 5vw;
+top: 0;
+line-height: 30px;
+}
+
+
+.tu1{
+    background-color: aqua;/*区块颜色*/
+    color: rgb(18, 3, 30);/*字体颜色*/
+    height: 100vh;/*区块大小*/
+    background-image: url(tupian/1.jpg);/*在区块插入背景图片*/
+    background-size: cover;/*填满整个区块*/
+    background-repeat: no-repeat;/*让图片只显示一张*/
+    background-position: center;/*图片剧中显示*/
+    display: flex;/*词语法可以让子元素产生不同的排列方式*/
+    flex-direction: column;/*指明区块方向的位置 column为“栏”的方式进行排列*/
+    align-items: center;/*水平对其为中央*/
+    justify-content: center;/*垂直对齐为中央*/
+}
+
+.tu1 h1{
+font-size: 120px;/*字体的大小*/
+}
+
+.tu1 img{
+    display: flex;
+    justify-content: baseline;
+width: 250px;
+    
+}
